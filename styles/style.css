@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Comic Sans";
+  src: url("fonts/Comic_Sans.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main img {
+  width: 60vh;
+}
+
+.why_container img {
+  width: 100%;
+  height: 100%;
+}
