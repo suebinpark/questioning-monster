@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-body {
+.main {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -19,6 +19,12 @@
 
 .main img {
   width: 60vh;
+}
+
+@media (orientation: portrait) {
+  .main img {
+    width: 60vw;
+  }
 }
 
 .why_container img {
