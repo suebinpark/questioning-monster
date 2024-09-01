@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.main {
+body {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -19,13 +19,6 @@
 
 .main img {
   width: 60vh;
-}
-
-.why_container {
-  background-color: '#000000';
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .why_container img {
